@@ -1,6 +1,6 @@
 # Projects
 
-## Identifying Sarcastic Spans
+## Identifying Sarcastic Spans - SI630
 Sarcasm detection remains an important unsolved challenge in natural language processing. Failure to detect sarcasm can cause negative statements to be misclassified as positive sentiment, thereby distorting the identification of the intended tone. To investigate the most effective strategy for sarcasm detection, we conducted a comprehensive study comparing explicit manual feature engineering, such as dual-channel architectures, with implicit contextual representation learning. Overall, we evaluated performance across five distinct models: a baseline model (TF-IDF + SVM), a custom Dual-Channel Multi-Scale Convolutional Neural Network (DMS-CNN) that incorporates a semantic channel and a rule-based sentiment (VADER) channel, a hybrid BERT-CNN, and two Transformer models (BERT and DeBERTa).
 
 Our results show that explicit architectural attempts fail to capture sarcasm. The custom DMS-CNN achieved only 69\% accuracy, which is even lower than the simpler TF-IDF baseline (74\%). In contrast, removing the manually designed structure and relying solely on end-to-end fine-tuning of DeBERTa produced the highest performance, reaching 82\% accuracy. These findings suggest that the deep contextual attention mechanisms of pre-trained language models are substantially more effective for sarcasm detection than complex manually designed architectural channels.
