@@ -9,8 +9,11 @@ Our results show that explicit architectural attempts fail to capture sarcasm. T
 
 ## Relative Belief 5/2025-8/2024, University of Toronto 
 ### Accomplishment
+
 •	Achieved A+, rated highest by the professor over years, and presented to all of the department
+
 •	Researched on the feasibility of automating experimental bias evaluations within probabilistic programming frameworks, applied both analytical and simulation approaches to assess hypothesis testing and estimate bias in various statistical models, including beta-binomial and linear regression frameworks
+
 •	Implemented the bias in favor and bias against calculation for different models, with R/Python; optimized the algorithm time complexity by mapping arrays to matrices to handle large-scale computations
 
 ### Abstract
